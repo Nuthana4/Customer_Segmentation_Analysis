@@ -10,28 +10,33 @@ ifood_df.csv: Contains customer data including demographics, purchase amounts, a
 🔍 Key Concepts and Challenges Addressed
 
 Data Collection: 
+
 Loaded customer and transaction data from a CSV file.
 
 Data Exploration and Cleaning: 
+
 Handled missing values and understood data structure using .info() and .describe().
 
 Descriptive Statistics: 
+
 Explored distributions for income, age, and spending patterns.
 
 Customer Segmentation: 
+
 Applied KMeans clustering after feature selection and standardization.
 
 Visualization:
+
 Used PCA, scatter plots, heatmaps, and boxplots for visual exploration.
 
 Insights and Recommendations: 
+
 Analyzed cluster characteristics for strategic business targeting.
 
 🧪 Tech Stack
 
-Python
-Pandas, NumPy
-Scikit-learn
-Matplotlib, Seaborn
+Python,Pandas, NumPy,Scikit-learn, Matplotlib, Seaborn
+
 📊 Result
+
 Successfully segmented customers into meaningful groups using KMeans clustering. Provided actionable insights for marketing and targeting based on income, age, and purchase behaviors.
